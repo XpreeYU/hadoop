@@ -13,6 +13,7 @@
  <properties>
      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <hadoop.version>2.5.0</hadoop.version>
+     <hive.version>0.13.1</hive.version>
  </properties>
 
 	 <dependencies>
@@ -22,6 +23,18 @@
              <artifactId>hadoop-client</artifactId>
              <version>${hadoop.version}</version>
 	       </dependency>
+	       
+	       <!-- hive client -->
+           <dependency>
+             <groupId>org.apache.hive</groupId>
+             <artifactId>hive-jdbc</artifactId>
+             <version>${hive.version}</version>
+           </dependency>
+           <dependency>
+             <groupId>org.apache.hive</groupId>
+             <artifactId>hive-exec</artifactId>
+             <version>${hive.version}</version>
+           </dependency>
 	       
 	       <dependency>
              <groupId>junit</groupId>
