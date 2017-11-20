@@ -19,12 +19,12 @@
 <configuration>
    <property>
         <name>fs.defaultFS</name>
-        <value>hdfs://localhost.localdomain:8020</value>
+        <value>hdfs://hadoop-senior.sun.com:8020</value>
     </property>
 	
     <property>
         <name>hadoop.tmp.dir</name>
-        <value>/opt/modules/hadoop-2.5.0-cdh5.3.6/data/tmp</value>
+        <value>/opt/modules/hadoop-2.5.0/data/tmp</value>
     </property>
 
     <property>

@@ -25,7 +25,7 @@
 
    <property>
         <name>dfs.namenode.secondary.http-address</name>
-        <value>localhost.localdomain:50090</value>
+        <value>hadoop-senior.sun.com:50090</value>
     </property>
 
 </configuration>
